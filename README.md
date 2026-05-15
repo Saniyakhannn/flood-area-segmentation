@@ -1,13 +1,11 @@
-🌊 Flood Area Segmentation — U-Net vs Attention U-Net
-<div align="center">
+# 🌊 Flood Area Segmentation — U-Net vs Attention U-Net
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-Automated flood area segmentation from aerial drone imagery using deep learning.  
-Comparing U-Net vs Attention U-Net with Grad-CAM explainability.
-</div>
+> Automated flood area segmentation from aerial drone imagery using deep learning.
+> Comparing U-Net vs Attention U-Net with Grad-CAM explainability.
 ---
 📋 Table of Contents
 Overview
