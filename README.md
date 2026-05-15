@@ -52,18 +52,18 @@ Attention U-Net	0.7756	0.8658	0.8690	0.8798
 > Three attention gates operating at different spatial scales (64×64, 128×128, 256×256) + composite mean
 ---
 ✨ Features
-✅ Side-by-side comparison of U-Net and Attention U-Net segmentation
-✅ Adjustable thresholds for each model via sidebar sliders
-✅ Green overlay visualization showing flood regions on original image
-✅ Flood coverage percentage displayed for both models
-✅ Before vs After slider comparison widget
-✅ Grad-CAM heatmaps showing model focus regions
-✅ Attention gate maps at 3 spatial scales
-✅ Morphological noise removal post-processing
-✅ Download results as PNG
-✅ Fully interactive Streamlit web app
+ Side-by-side comparison of U-Net and Attention U-Net segmentation
+ Adjustable thresholds for each model via sidebar sliders
+ Green overlay visualization showing flood regions on original image
+ Flood coverage percentage displayed for both models
+ Before vs After slider comparison widget
+ Grad-CAM heatmaps showing model focus regions
+ Attention gate maps at 3 spatial scales
+ Morphological noise removal post-processing
+ Download results as PNG
+ Fully interactive Streamlit web app
 ---
-🏗️ Architecture
+Architecture
 U-Net
 ```
 Input (3×256×256)
@@ -150,7 +150,7 @@ flood-area-segmentation/
     └── ss_att_gates.png
 ```
 ---
-🧪 Training Details
+Training Details
 Parameter	Value
 Optimiser	Adam (lr=1e-4, weight_decay=1e-5)
 Loss Function	0.3 × BCE + 0.7 × Dice
@@ -168,11 +168,7 @@ Model Saved By	Best validation Dice score
       <b>Sania Usman</b><br>
       <a href="https://github.com/Saniyakhannn">@Saniyakhannn</a>
     </td>
-    <td align="center">
-      <b>Aisha Khalil</b><br>
-      BS Computer Science
-    </td>
-  </tr>
+</tr>
 </table>
 ---
 📄 License
